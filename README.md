@@ -1,4 +1,4 @@
 # chartGraph_android
--Pie Graph
--Line Graph
--Bar Graph
+* Pie-Graph
+* Line-Graph
+* Bar-Graph
