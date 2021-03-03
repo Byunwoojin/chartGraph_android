@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/PieGraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#F0ECDD"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:tag="1"
+        android:text="원 그래프\nPIE-GRAPH" />
+
+    <TextView
+        android:id="@+id/LineGraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#DEE2E3"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:tag="2"
+        android:text="꺾은선 그래프\nLINE-GRAPH" />
+
+    <TextView
+        android:id="@+id/BarGraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#EBD2D1"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:tag="3"
+        android:text="막대 그래프\nBAR-GRAPH" />
+</LinearLayout>
